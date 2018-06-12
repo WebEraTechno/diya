@@ -147,6 +147,8 @@
     <gap:plugin name="net.tunts.webintent" spec="https://github.com/Tunts/WebIntent.git" source="git" />
     <gap:plugin name="ch.ti8m.documenthandler" spec="https://github.com/ti8m/DocumentHandler.git" source="git" />
 
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    
     <gap:config-file platform="android" parent="/manifest">
          <application android:debuggable="true" />
     </gap:config-file>
